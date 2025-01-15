@@ -1,0 +1,32 @@
+@import url(./global.header.css);
+@import url(./index.features.css);
+
+:root{
+    --index-panel-color: #2091F9;
+    --index-bright-color: #FFFFFF;
+    --index-dark-color: #252B42;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/assets/fonts/Graphik-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/assets/fonts/Graphik-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

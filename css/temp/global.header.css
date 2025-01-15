@@ -1,0 +1,26 @@
+.header {
+    background: #000;
+}
+
+.header__menu-list{
+    display: flex;
+    gap: 20px;
+}
+
+.header__menu-link{
+    text-decoration: none;
+    list-style: none;
+    color: var(--index-bright-color);
+    font-family: 'Graphik', sans-serif;
+}
+
+.header__navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__social-icon{
+    width: 32px;
+    height: 32px;
+}

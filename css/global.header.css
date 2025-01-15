@@ -1,0 +1,33 @@
+.header{
+    width: 100%;
+    position: absolute;
+}
+.header__social-icon-mobile{
+    display: none;
+}
+
+@media (max-width: 420px) {
+    .header__menu, .header__social{
+        display: none;
+    }
+
+    .header__social-icon-mobile{
+        display: flex;
+    }
+
+    .header__navigate {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .header__logo,
+      .header__social-mobile {
+        flex: 0 1 auto; 
+        margin: 5px 10px 0 5px;
+      }
+    
+      .header__social-mobile {
+        display: flex;
+      }
+}
